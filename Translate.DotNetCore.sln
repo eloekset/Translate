@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Presentation Layer", "10 Presentation Layer", "{312B6BF8-7C18-4B65-85DA-2D292655F6B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 Business Layer", "20 Business Layer", "{F117BDA3-9994-445A-8C5F-58ED4BF2ED47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Domain Layer", "30 Domain Layer", "{C8095745-A475-4FC1-9D28-546DE7D693D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 Data Layer", "40 Data Layer", "{A1290163-66D7-4D53-B275-CBFA3AB85225}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 Cross-Cutting Layer", "50 Cross-Cutting Layer", "{9B585A85-9945-4D8C-88F4-7010253B490A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Translate.Data.Rest.DotNetCore", "Translate.Data.Rest\Translate.Data.Rest.DotNetCore.csproj", "{4A72C48A-9D1A-43B0-B908-E70A98DBBE49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Translate.CrossCutting.DotNetCore", "Translate.CrossCutting\Translate.CrossCutting.DotNetCore.csproj", "{120DC9E7-8B51-448F-A33F-7572DD6C1ADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A72C48A-9D1A-43B0-B908-E70A98DBBE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A72C48A-9D1A-43B0-B908-E70A98DBBE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A72C48A-9D1A-43B0-B908-E70A98DBBE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A72C48A-9D1A-43B0-B908-E70A98DBBE49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120DC9E7-8B51-448F-A33F-7572DD6C1ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120DC9E7-8B51-448F-A33F-7572DD6C1ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120DC9E7-8B51-448F-A33F-7572DD6C1ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120DC9E7-8B51-448F-A33F-7572DD6C1ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A72C48A-9D1A-43B0-B908-E70A98DBBE49} = {A1290163-66D7-4D53-B275-CBFA3AB85225}
+		{120DC9E7-8B51-448F-A33F-7572DD6C1ADE} = {9B585A85-9945-4D8C-88F4-7010253B490A}
+	EndGlobalSection
+EndGlobal

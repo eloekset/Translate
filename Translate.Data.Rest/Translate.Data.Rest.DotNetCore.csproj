@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>Translate.Data.Rest</AssemblyName>
+    <RootNamespace>Translate.Data.Rest</RootNamespace>
+  </PropertyGroup>
+
+</Project>
